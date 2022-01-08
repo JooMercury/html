@@ -148,9 +148,8 @@
 .replay:focus-within .fa-smile,
 .replay:focus-within button {
   opacity: 0;
-  visibility: hidden;
 }
-.replay:focus-within input {
+.replay input:focus {
   width: 98vw;
   transform: translateX(-13%) translateY(-80px);
 }
